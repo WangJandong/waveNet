@@ -22,10 +22,10 @@ pip install -r requirements.txt
 python src/preprocessing.py
 
 # 开始训练
-python train.py --config config.py
+python train.py 
 
 # 生成语音
-python gen.py --checkpoint wavenet.pth --text "要合成的文本"
+python gen.py 
 ```
 
 ## 项目结构
